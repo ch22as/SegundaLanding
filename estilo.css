@@ -1,0 +1,68 @@
+* {
+  border: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+#arriba {
+  background-image: url(images/Background_image_edited.png);
+  color: white;
+  width: 100%;
+  height: 400px;
+}
+
+#nav {
+  padding: 30px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header {
+  margin: 80px;
+  font-size: 25px;
+}
+
+#dos {
+  background-color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main {
+  width: 100%;
+  height: 800px;
+  border: 1px solid black;
+}
+
+button {
+  width: 184px;
+  height: 44px;
+  border-radius: 10rem;
+}
+
+#logo {
+  width: 80px;
+  height: 23px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+/*# sourceMappingURL=estilo.css.map */
