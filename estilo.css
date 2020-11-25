@@ -46,34 +46,48 @@ main {
   width: 100%;
   height: 800px;
   border: 1px solid black;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'articulos articulos articulos'  'slider slider slider' 'button button button';
+}
+
+#articulos {
+  background-color: red;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: articulos;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 50px;
 }
 
-/*#articulos{
-    display: flex;
-    order: -3;
-    gap: 122px;
-    padding-left: 200px;
-    padding-top: 100px;
+#articulos article {
+  border: 5px solid green;
+}
 
-    
-}*/
 #slider {
-  background-color: blue;
+  background-color: yellow;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: slider;
+}
+
+#button {
+  background-color: hotpink;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: button;
 }
 
 /*.articulo{
@@ -92,7 +106,7 @@ main {
     width: 50px;
     margin-right: 10px;
 }*/
-button {
+.button {
   width: 184px;
   height: 44px;
   border-radius: 10rem;
