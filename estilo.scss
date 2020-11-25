@@ -58,7 +58,6 @@ main{
 
 
 #articulos{
-    height: 100px;
     grid-area: articulos;
     display: flex;
     gap:20px;
@@ -72,6 +71,7 @@ main{
 .articulo{
     display: flex;
     gap:10px;
+    border-top: 10px;
     flex-wrap: wrap;
     
 }
