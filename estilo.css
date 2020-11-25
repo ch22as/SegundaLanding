@@ -52,7 +52,7 @@ main {
 }
 
 #articulos {
-  background-color: red;
+  height: 100px;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -67,11 +67,43 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 50px;
+  padding: 50px 120px;
+  font-size: 20px;
+  text-align: center;
 }
 
-#articulos article {
-  border: 5px solid green;
+.articulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.articulo figure {
+  margin-left: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.articulo figure h3 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-left: 15px;
+}
+
+.articulo img {
+  width: 50px;
+  height: 50px;
+}
+
+.articulo p {
+  -webkit-box-ordinal-group: 21;
+      -ms-flex-order: 20;
+          order: 20;
 }
 
 #slider {
