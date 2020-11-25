@@ -148,7 +148,7 @@ main {
 }
 
 .button {
-  background-color: #FAD9;
+  background-color: linear-gradient(to right, #FFAADD, #FF7766);
   width: 184px;
   height: 44px;
   border-radius: 10rem;

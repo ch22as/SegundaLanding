@@ -1,6 +1,7 @@
 $fondo-arriba:url(images/Background_image_edited.png);
 $fondo-dos: gray;
 $fondo-boton : #FAD9;
+$fondo-botones:linear-gradient(to right,#FFAADD, #FF7766);
 
 
 
@@ -120,7 +121,7 @@ main{
 }
 
 .button{
-    background-color: $fondo-boton;
+    background-color: $fondo-botones;
     width: 184px;
     height: 44px;
     border-radius: 10rem;
